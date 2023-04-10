@@ -13,6 +13,3 @@ pytest = "^7.3.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry.scripts]
-optifunder = "project:main"
