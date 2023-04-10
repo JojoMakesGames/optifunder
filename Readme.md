@@ -1,4 +1,5 @@
 # Using this project
+May have to install python dependency/virtual env manager, poetry: https://python-poetry.org/docs/
 Run these commands
 * poetry install
 * tests: poetry run pytest project/test.py
