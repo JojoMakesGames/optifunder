@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "optifunder"
+version = "0.1.0"
+description = "Take Home Project for Optifunder"
+authors = ["JojoMakesGames <jojo.oatey@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+optifunder = "project:main"
